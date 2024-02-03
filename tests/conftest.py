@@ -29,5 +29,5 @@ def login(browser):
 @pytest.fixture
 def authenticated_browser(browser, login):    
 
-    yield browser
+    yield login
 # You can define other fixtures, configuration, or hooks here
